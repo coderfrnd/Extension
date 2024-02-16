@@ -1,0 +1,31 @@
+body{
+    background-color: black;
+    height: 240px;
+    width: 240px; 
+    font-size: medium;
+}
+.first{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding: 0%;
+    margin: 0%;
+    align-items: center;
+}
+.second{
+    /* display: flex; */
+    margin-top: 5%;
+    font-size: medium;
+    color: white;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* align-items: center; */
+    display: flex;
+    flex-direction: row;
+    
+    
+
+}
+.second a {
+    flex-basis: 30%; /* Set the initial size of each <a> element */
+}
