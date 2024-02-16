@@ -1,0 +1,10 @@
+{
+    "manifest_version": 3,
+    "version":"1.0",
+    "name": "STL BOOK",
+    "description": "FOR SAVING TIME IN CP ",
+    
+    "action": {
+      "default_popup": "popup.html"
+    }
+  }
