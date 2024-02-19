@@ -3,10 +3,13 @@ body{
     height: 280px;
     width: 280px;
     font-family: Arial, sans-serif;
-    /* display: flex; */
-    /* justify-content: center; */
-    /* align-items: center; */
+    display: flex; 
+    justify-content: center;
+     align-items: center; 
     /* border: 1px solid white; */
+    border: 1px solid rgb(79, 240, 4);
+    margin: 0%;
+    padding: 0%;
 }
 
 :root {
@@ -20,7 +23,28 @@ body{
   
     color: white;
     padding-left: 12px;
+    /* margin-top: 0%; */
+    /* margin-bottom: 0%; */
+    overflow: hidden;
     
     
   }
-  
+  .back {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 2px;
+  }
+  .back a {
+    color: white;
+    text-decoration: none;
+    background-color: #f40000;
+    padding: 0.5rem 1rem;
+    margin: 0.5rem;
+    border-radius: 0.5rem;
+    transition: all 0.3s ease-in-out;
+  }
+  .space{
+    margin-top: 4px;
+    margin-bottom: 4px;
+  }
