@@ -3,27 +3,24 @@ body{
     height: 280px;
     width: 280px;
     font-family: Arial, sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid white;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* border: 1px solid white; */
 }
-.first{
-    display: flex;
-    flex-direction: column;
+
+:root {
+    --card-background: rgb(24 24 27);
+    --card-text: white;
+    --card-link-background: #f40000;
+    --card-link-hover-background: #2e409a;
+  }
+
+  .card {
+  
     color: white;
-    padding: 0%;
-    margin: 0%;
-    align-items: center;
-}
-.initialize p{
-    color: red;
-    color: aqua;
-    /* padding: auto; */
-    display: flex;
-    justify-content: center;
-    margin: 1%;
-}
-.example{
-    color: aqua;
-}
+    padding-left: 12px;
+    
+    
+  }
+  

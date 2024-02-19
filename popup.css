@@ -1,3 +1,6 @@
+:root {
+  --zinc-900: #080707; /* Define zinc-800 color */
+}
 body {
     background-color: black;
     height: 280px;
@@ -6,7 +9,9 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid white;
+    border: 1px solid rgb(79, 240, 4);
+    margin: 2px;
+    padding: 0%;
   }
   
   .first {
@@ -37,7 +42,7 @@ body {
   .second a {
     color: white;
     text-decoration: none;
-    background-color: #dd1919;
+    background-color: #f40000;
     padding: 0.5rem 1rem;
     margin: 0.5rem;
     border-radius: 0.5rem;
