@@ -40,9 +40,9 @@ body {
   }
   
   .second a {
-    color: white;
+    color: rgb(42, 35, 35);
     text-decoration: none;
-    background-color: #f40000;
+    background-color: rgba(201, 215, 221, 0.7);
     padding: 0.5rem 1rem;
     margin: 0.5rem;
     border-radius: 0.5rem;
@@ -50,7 +50,7 @@ body {
   }
   
   .second a:hover {
-    background-color: #2e409a;
+    background-color: #637A9F;
   }
   
   .background{
