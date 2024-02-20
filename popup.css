@@ -2,7 +2,7 @@
   --zinc-900: #080707; /* Define zinc-800 color */
 }
 body {
-    background-color: black;
+    background-color: rgb(32, 2, 2);
     height: 280px;
     width: 280px;
     font-family: Arial, sans-serif;
@@ -51,4 +51,11 @@ body {
   
   .second a:hover {
     background-color: #2e409a;
+  }
+  
+  .background{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(img.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
   }
