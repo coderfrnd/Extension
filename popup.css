@@ -2,7 +2,7 @@
   --zinc-900: #080707; /* Define zinc-800 color */
 }
 body {
-    background-color: black;
+    background-color: rgb(32, 2, 2);
     height: 280px;
     width: 280px;
     font-family: Arial, sans-serif;
@@ -42,9 +42,9 @@ body {
   }
   
   .second a {
-    color: white;
+    color: rgb(42, 35, 35);
     text-decoration: none;
-    background-color: #f40000;
+    background-color: rgba(201, 215, 221, 0.7);
     padding: 0.5rem 1rem;
     margin: 0.5rem;
     border-radius: 0.5rem;
@@ -52,5 +52,12 @@ body {
   }
   
   .second a:hover {
-    background-color: #2e409a;
+    background-color: #637A9F;
+  }
+  
+  .background{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(img.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
   }
