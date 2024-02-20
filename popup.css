@@ -12,7 +12,6 @@ body {
     border: 2px solid rgb(79, 240, 4);
     margin: 0px;
     padding: 0%;
-    /* z-index: -3; */
     border-radius: 5px
   }
   
@@ -23,7 +22,6 @@ body {
     align-items: center;
     height: 280px;
     width: 280px;
-    /* border: 1px solid white; */
     border-radius: 5px;
     padding: 20px;
     box-sizing: border-box;
@@ -44,9 +42,8 @@ body {
   .button a {
     color: rgb(42, 35, 35);
     text-decoration: none;
-    /* background-color: #07ebc980; */
     background-color: #FFFFFF;
-/* background-image: linear-gradient(180deg,#ff0000 55%, #ffffff 100%); */
+
 background-image: linear-gradient(180deg,#6895D2 55%, #cacadd 100%);
 
     padding: 0.5rem 1rem;
@@ -54,12 +51,12 @@ background-image: linear-gradient(180deg,#6895D2 55%, #cacadd 100%);
     border-radius: 0.5rem;
     transition: all 0.3s ease-in-out;
     z-index: 0;
-    /* border: 1px solid black; */
   }
   
   .button a:hover {
     background-color: #f15608;
     /* background-color: #07ebc980; */
+    transform: scale(1.1)
   }
   
   .background {
