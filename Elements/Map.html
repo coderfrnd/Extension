@@ -1,18 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="Global.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Map Basics</title>
+    <link rel="stylesheet" type="text/css" href="Global.css" />
 </head>
 <body>
-    <div class="first">
-       Vector one of the Most Imp Data Structure
-    <a href="diif.html">Click</a>
-    <div class="back">
-        <a href="../popup.html">Back</a>
-    </div>
+    <div class="card">
+        <h4 class="space">Map is used to store key-value pairs where each key is unique.</h4>
+        <p class="space"><strong>std::map&lt;Key_Type, Value_Type&gt; map_name;</strong> - Initializing a map.</p>
+        <p class="space"><strong>Inserting elements into a map:</strong></p>
+        <p class="space"><code>map_name[key] = value;</code></p>
+        <p class="space"><strong>Accessing elements in a map:</strong></p>
+        <p class="space"><code>map_name[key];</code></p>
+        <p class="space"><strong>Iterating over elements in a map:</strong></p>
+        <p class="space">
+            <code>for (const auto&amp; pair : map_name) {<br>
+                <span class="m-left">std::cout &lt;&lt; pair.first &lt;&lt; " : " &lt;&lt; pair.second &lt;&lt; std::endl;</span><br>
+            }</code>
+        </p>
+        <div class="back">
+            <a href="../popup.html">Back</a>
+        </div>
     </div>
 </body>
 </html>
