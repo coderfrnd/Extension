@@ -61,7 +61,7 @@ body {
 }
 
 .spaces {
-  margin-top: 8px;
+  margin-top: 7px;
   margin-bottom: 0.5px;
   font: 600;
 }
@@ -97,5 +97,30 @@ body {
 }
 
 .back_in_string a:hover {
+  transform: scale(1.1);
+}
+.space_in_map{
+  margin-top: 6px;
+  margin-bottom: 0px;
+
+}
+.back_in_map{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 1px;
+
+}
+.back_in_map a {
+  color: #ffffff;
+  text-decoration: none;
+  background-color: #f40000;
+  padding: 0.5rem 1rem;
+  margin: 0.2rem;
+  border-radius: 0.5rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.back_in_map a:hover {
   transform: scale(1.1);
 }
