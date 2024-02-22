@@ -40,7 +40,17 @@ body {
   justify-content: center;
   margin-top: 3px;
 }
-
+.card_deque{
+  color: rgb(239, 236, 240);
+  margin: 0%;
+  padding: 0%;
+  overflow: hidden;
+  margin-left: 15px;
+  font-size: 12.5px;
+}
+.card_deque h2{
+  font:bold
+}
 .back a {
   color: #ffffff;
   text-decoration: none;

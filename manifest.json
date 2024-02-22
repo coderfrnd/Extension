@@ -5,6 +5,7 @@
     "description": "FOR SAVING TIME IN CP ",
     
     "action": {
-      "default_popup": "popup.html"
+      "default_popup": "popup.html",
+      "default_icon":"images.pnggit "
     }
   }
