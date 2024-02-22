@@ -1,7 +1,7 @@
 body {
   /* background-color: black; */
-  height: 350px;
-  width: 350px;
+  height: 300px;
+  width: 300px;
   font-family: Arial, sans-serif;
   display: flex;
   justify-content: center;
@@ -17,7 +17,7 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  font-size: 12px;
+  font-size: 13px;
   border-radius: 5px;
 }
 
@@ -40,7 +40,17 @@ body {
   justify-content: center;
   margin-top: 3px;
 }
-
+.card_deque{
+  color: rgb(239, 236, 240);
+  margin: 0%;
+  padding: 0%;
+  overflow: hidden;
+  margin-left: 15px;
+  font-size: 12.5px;
+}
+.card_deque h2{
+  font:bold
+}
 .back a {
   color: #ffffff;
   text-decoration: none;
