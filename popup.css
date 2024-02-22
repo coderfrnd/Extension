@@ -13,6 +13,7 @@ body {
     margin: 0px;
     padding: 0%;
     border-radius: 5px
+    
   }
   
   .first {
@@ -37,6 +38,9 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     margin-top: 0.5rem;
+    box-shadow: 0 0 5px cyan,
+    0 0 25px cyan;
+    font: 400;
     
   }
   
@@ -45,7 +49,7 @@ body {
     text-decoration: none;
     background-color: #FFFFFF;
 
-background-image: linear-gradient(180deg,#6895D2 55%, #cacadd 100%);
+background-image: linear-gradient(180deg,#329cc9 55%, #cacadd 100%);
 
     padding: 0.6rem 1rem;
     margin: 0.5rem;
@@ -55,9 +59,12 @@ background-image: linear-gradient(180deg,#6895D2 55%, #cacadd 100%);
   }
   
   .button a:hover {
-    background-color: #f15608;
+    /* background-color: #f15608; */
     /* background-color: #07ebc980; */
-    transform: scale(1.1)
+    /* transform: scale(1.1) */
+    box-shadow: 0 0 5px cyan,
+    0 0 25px cyan, 0 0 50px cyan,
+    0 0 100px cyan, 0 0 200px cyan
   }
   
   .background {
