@@ -1,7 +1,7 @@
 body {
   /* background-color: black; */
-  height: 350px;
-  width: 350px;
+  height: 300px;
+  width: 300px;
   font-family: Arial, sans-serif;
   display: flex;
   justify-content: center;
@@ -17,7 +17,7 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  font-size: 12px;
+  font-size: 13px;
   border-radius: 5px;
 }
 
