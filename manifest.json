@@ -8,8 +8,15 @@
       "default_popup": "popup.html",
       "default_icon":"images.png"
     },
-    "icons":{
-      "128":"images"
+    "icons": {
+     
+      "32": "icon32.png",
+      "38": "icon38.png",
+      "48": "icon48.png",
+      "128": "icon128.png",
+      "permissions": [
+        "activeTab"
+      ]
     }
-    
   }
+  
