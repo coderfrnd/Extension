@@ -1,22 +1,23 @@
 {
     "manifest_version": 3,
-    "version":"1.0",
+    "version":"0.0.1",
     "name": "STL BOOK",
-    "description": "FOR SAVING TIME IN CP ",
+    "description": "Your Best Friend in Coding Contest",
     
     "action": {
       "default_popup": "popup.html",
-      "default_icon":"images.png"
+      "default_icon":{
+        "16": "icon16.png",
+        "48": "icon48.png",
+        "128": "icon128.png"
+      },
+      "default_title":"Click me"
     },
     "icons": {
-     
-      "32": "icon32.png",
-      "38": "icon38.png",
+      "16": "icon16.png",
       "48": "icon48.png",
-      "128": "icon128.png",
-      "permissions": [
-        "activeTab"
-      ]
+      "128": "icon128.png"
     }
+    
   }
   
